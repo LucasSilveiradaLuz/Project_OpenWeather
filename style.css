@@ -1,6 +1,9 @@
 .card-custom-shadow {
+    background-color: rgba(0, 132, 255, 0.918);
+}
+.card-custom-shadow {
     max-width: 470px;
-    height: 420px;
+    height: auto;
     width: 100%;
     border-radius: 1.2rem;
     border: none;
@@ -16,13 +19,13 @@
 }
 .resumo-card {
     position: relative;
-    background-color: var(--sensecare-light-gray);
+    background-color: rgba(0, 132, 255, 0.918);
     border-radius: 1rem;
     border: none;
     padding: 20px;
     height: 240px;
+    width: 100%;
 
-    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.04);
 }
 .resumo-card::before {
     content: "";
@@ -34,7 +37,7 @@
     border-radius: 5px;
     background: linear-gradient(
         to bottom,
-        #00B894,
+        orange,
         #1E88C9
     );
 }
