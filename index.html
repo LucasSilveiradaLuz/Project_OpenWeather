@@ -12,7 +12,6 @@
         <div class="card card-custom-shadow mb-4 d-block mx-auto" style="max-width: 500px;"> 
             <div class="card-body p-4">
                 <div class="row align-items-center justify-content-center mb-4">
-                   
                     <div class="col-auto">
                         <h1 class="mb-0">Project OpenWeather</h1>
                     </div>
@@ -32,7 +31,9 @@
                     <div class="row align-items-center">
                         <div class="col-4 text-center">
                             <div id="icon-container">
-                                <img src="https://cdn-icons-png.flaticon.com/512/1116/1116453.png" style="width: 60px;">
+                                <img id="placeholderIcon" src="https://cdn-icons-png.flaticon.com/512/1116/1116453.png" style="width: 65px;" alt="Logo Projeto">
+                                
+                                <img id="weatherIcon" src="" style="width: 85px; display: none;" alt="Clima Atual">
                             </div>
                         </div>
 
@@ -42,8 +43,7 @@
                             <span id="humidity" class="small">Umidade: --%</span>
                             <span id="description" class="small italic">Condição</span>
                             <div id="suggestion" class="fw-bold mt-2" style="font-size: 0.9rem;">
-                                
-                            </div>
+                                </div>
                         </div>
                     </div>
                 </div>
